@@ -9,7 +9,7 @@ header {
     width: calc(1180 / 1440 * 100%);
     margin: auto;
     display: flex;
-    padding: 8px 130px;
+    padding: 8px 0  ;
     justify-content: space-between;
 }
 
@@ -206,12 +206,12 @@ li {
 }
 
 .small_pics {
-    width: 380px;
-    background-image: url("..//images/smallpic1.png"), url("..//images/smallpic2.png");
-    background-repeat: no-repeat, no-repeat;
-    background-size: 100% 190px, 100% 190px;
-    background-position: 0 0, 0 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+
 }
+
 
 /* footer */
 footer {
