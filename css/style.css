@@ -204,10 +204,30 @@ li {
     font-weight: 400;
     line-height: 20px;
 }
-.small_pics{
+
+.small_pics {
     width: 380px;
     background-image: url("..//images/smallpic1.png"), url("..//images/smallpic2.png");
-    background-repeat: no-repeat,no-repeat;
+    background-repeat: no-repeat, no-repeat;
     background-size: 100% 190px, 100% 190px;
-    background-position: 0 0,0 210px;
+    background-position: 0 0, 0 210px;
+}
+
+/* footer */
+footer {
+    margin-top: 130px;
+    background-color: #000;
+    padding: 36px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 14px;
+
+}
+
+.footer_p {
+    color: #FFF;
+    font-family: Pridi;
+    font-size: 18px;
+    font-weight: 400;
 }
