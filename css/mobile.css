@@ -1,0 +1,64 @@
+@media only screen and (max-width: 835px){
+    
+    .header2{
+        display: none;
+        
+    }
+    
+    .material{
+        display: inline;
+    }
+    .user1{
+        display: inline;
+    }
+    .cover{
+        display: none;
+    }
+    .section1{
+        background-image: url("..//images/cover.png");
+        background-repeat: no-repeat;
+    }
+    .cover_div{
+        top: 24px;
+        left: 14px;
+    }
+    .travel{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .lorem{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .card_div{
+        flex-direction: column;
+        row-gap: 24px;
+    }
+    .big_picture{
+        display: none;
+    }
+    .big_pic{
+        background-image: url("..//images/bigpic2.png");
+        background-repeat: no-repeat;
+    }
+    .bigpic_h2{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .bigpic_p{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .bigpic_div{
+        top: 115px;
+        left: 14px;
+    }
+    .small_pics{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .small_picture{
+        width: 100%;
+    }
+
+}

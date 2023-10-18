@@ -12,6 +12,12 @@ header {
     padding: 8px 0  ;
     justify-content: space-between;
 }
+.material{
+    display: none;
+}
+.user1{
+    display: none;
+}
 
 .header1 {
     display: flex;
